@@ -1,0 +1,106 @@
+/* Hakikisha kila kitu kinahesabiwa upana vizuri */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sifa za jumla za ukurasa mzima */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center; /* Inaweka box katikati kushoto-kulia */
+    align-items: center;     /* Inaweka box katikati juu-chini */
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Box kuu jeupe linalofunga fomu (Card) */
+.register-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 420px; /* Hii inazuia fomu isivutike sana kama kwenye picha yako */
+    margin: 20px;
+}
+
+/* Kichwa cha habari */
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+/* Fomu yenyewe */
+form {
+    width: 100%;
+}
+
+/* Group la kila input */
+.input-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Visanduku vya kuandikia (Inputs) */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Rangi ikibonyezwa (Focus Effect) */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 6px rgba(74, 144, 226, 0.3);
+}
+
+/* Kitufe cha kusajili (Button) */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+}
+
+/* Rangi ya button ikiguswa na panya */
+button:hover {
+    background-color: #357abd;
+}
+
+/* Maandishi ya chini na Link */
+p {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666666;
+}
+
+p a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
